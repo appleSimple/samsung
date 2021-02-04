@@ -1,0 +1,57 @@
+@media (max-width: 426px) {
+	#intro {
+		background: url(../img/sky.jpg) no-repeat center / cover;	background-attachment: fixed;
+		position: relative;
+		width: 100%;		height: 80vh;
+		object-fit: cover;
+		font-family: 'Poppins', sans-serif;
+	}
+	#intro .introDetailBtn {
+		border: 1px solid rgba(0, 0, 0, 0.5);	border-radius: 5rem;	outline: none;
+		background-color: transparent;
+		font-size: 1.5rem;
+		padding: 1rem;
+		margin-top: 5rem;
+		display: none;
+		cursor: pointer;
+		-webkit-transition: all 1s;
+	}
+	#intro .introDetail {
+		border-radius: 10rem;
+		background-color: rgba(255, 255, 255, 0.2);
+		position: absolute;		top: 22%;	right: 15rem;
+		padding: 10rem 8rem;
+		display: none;
+	}
+
+	#new .newBox{
+		border: 1px solid red;
+		position: absolute;		left: 50%;		top: 48%;
+		width: 40rem;	height: 80rem;
+		transform: translate(-50%, -50%);
+		word-break: keep-all;
+	}
+	#new .newBox h1 {
+		font-size: 6rem;	font-weight: 100;
+		text-align: center;	letter-spacing: 2rem;
+	}
+	#new .newBox ul li:nth-child(1) img{
+		width: 250px;
+	}
+	#new .newBox ul li:nth-child(2) img{
+		padding: 5rem 0;
+		width: 400px;
+	}
+	#new .newBox ul li:nth-child(3) img{
+		padding: 0 0;
+		width: 450px;
+	}
+	#new .newBox ul li:nth-child(4) img{
+		padding: 0 0;
+		width: 400px;
+	}
+	#new .newBox ul li:nth-child(5) img{
+		padding: 0 0;
+		width: 400px;
+	}
+}

@@ -1,0 +1,125 @@
+@media (max-width: 1440px) {
+	#intro .introBox {
+		position: absolute;		top: 13%;		left: 50%;
+		width: 80%;
+		transform: translateX(-50%);
+		word-break: keep-all;
+	}
+	#intro .introDetail {
+		border-radius: 10rem;
+		background-color: rgba(255, 255, 255, 0.2);
+		position: absolute;		top: 50%;	right: 15rem;
+		padding: 8rem 5rem;
+	}
+	#intro .introBox h1 {
+		font-size: 6rem;		font-weight: 100;
+		padding-bottom: 5rem;
+		line-height: 10rem;
+	}
+	#intro .introBox h2 {
+		font-size: 1.5rem;		font-weight: 500;
+		padding-bottom: 8rem;
+		margin-left: 1rem;
+	}
+	#intro .introDetail {
+		border-radius: 10rem;
+		background-color: rgba(255, 255, 255, 0.2);
+		position: absolute;		top: 50%;	right: 15rem;
+		padding: 5rem 5rem;
+	}
+	#intro .introDetail img{
+		width: 700px;
+	}
+
+	#event .eventBox {
+		position: absolute;		left: 50%;		top: 10%;
+		width: 90%;		height: 80%;
+		transform: translateX(-50%);
+	}
+	#event .eventBox .eventList {
+		position: relative;
+		display: flex;		flex-flow: row wrap;
+		transform: translateY(25%);
+	}
+
+	#place .placeBox .placeSlide {
+		position: relative;
+		width: 6500px;
+		padding: 5rem 0;
+		margin-top: 2rem;
+		display: flex;
+		cursor: grab;
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+	#place .placeBox .placeSlide .placeCard {
+		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.3);
+		width: 400px;	height: 500px;
+		margin:0rem 40px;
+		user-select: none;
+	}
+	#place .placeBox .placeSlide .placeCard img {
+		width: 350px;
+		padding: 2.5rem;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail {
+		padding: 2.5rem;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail h3 {
+		font-size: 2.5rem;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail p {
+		font-size: 1.5rem;
+		padding: 1.5rem 0;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail span {
+		font-size: 1.5rem;	font-weight: 500;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail a {
+		border: 1px solid black;	border-radius: 20px;
+		width: 100px;
+		padding: 1rem 1.5rem;
+		margin-top: 4rem;
+		font-size: 1.5rem;		color: black;
+		text-align: center;		text-decoration: none;
+		display: block;
+	}
+
+	#hire .hireBox {
+		position: absolute;	left: 50%;	top: 15rem;
+		width: 1200px;		height: 700px;
+		transform: translateX(-50%);
+	}
+	#hire .hireBox h1 {
+		font-size: 10rem;	font-weight: 100;
+	}
+	#hire .hireBox h2 {
+		font-size: 2.5rem;
+		text-align: right;
+	}
+	#hire .hireBox .hireList {
+		width: 1200px;	height: 40rem;
+		padding: 3rem 0;
+		display: flex;	justify-content: space-between;
+	}
+	#hire .hireBox .hireList .hireDetail {
+		border-top: 2px solid black;
+		width: 40rem;	height: 30rem;
+	}
+	#hire .hireBox .hireList .hireDetail h3 {
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;	line-height: 10rem;
+		font-size: 3rem;	color: white;
+		text-align: center;		
+		display: block;
+		cursor: pointer;
+		-webkit-transition: all 1s;
+	}
+	#hire .hireBox .hireList .hireDetail h3:hover {
+		background-color: rgba(22, 40, 155, 0.8);
+		line-height: 30rem;
+		-webkit-transition: all 1s;
+	}
+
+	
+}

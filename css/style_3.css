@@ -1,0 +1,256 @@
+@media (max-width: 1024px) {
+	nav.lnb {
+		position: absolute; 	left: 0;		z-index: 999;
+		display: flex;		align-items: center;
+		width: 100%; 	height: 10rem;
+		margin-left: 0;
+	}
+	nav.lnb.fixed {
+		position: absolute; 	left: 0;		z-index: 999;
+		display: flex;		align-items: center;
+		width: 100%; 	height: 8rem;
+		margin-left: 0;
+		transition: 0.5s;
+	}
+
+	#intro .introBox {
+		position: absolute;		top: 13%;		left: 50%;
+		width: 80%;
+		transform: translateX(-50%);
+		word-break: keep-all;
+	}
+	#intro .introBox h1 {
+		font-size: 6rem;		font-weight: 100;
+		padding-bottom: 2rem;
+		line-height: 6rem;
+	}
+	#intro .introBox h2 {
+		font-size: 1.5rem;		font-weight: 500;
+		padding-bottom: 8rem;
+		margin-left: 1rem;
+	}
+	#intro .introDetailBtn {
+		border: 1px solid rgba(0, 0, 0, 0.5);	border-radius: 5rem;	outline: none;
+		background-color: transparent;
+		font-size: 1.5rem;
+		padding: 1rem;
+		margin-top: 5rem;
+		display: block;
+		cursor: pointer;
+		-webkit-transition: all 1s;
+	}
+	#intro .introDetailBtn:hover {
+		border: none;
+		background-color: var(--main-color);
+		color: white;
+		-webkit-transition: all 1s;
+	}
+	#intro .introDetail {
+		border-radius: 10rem;
+		background-color: rgba(255, 255, 255, 0.2);
+		position: absolute;		bottom: 5rem;	right: 5rem;
+		padding: 5rem 5rem;
+	}
+	#intro .introDetail img{
+		width: 600px;
+	}
+
+	#new .newBox{
+		border: 1px solid red;
+		position: absolute;		left: 50%;		top: 48%;
+		width: 80rem;	height: 70rem;
+		transform: translate(-50%, -50%);
+	}
+	#new .newBox h1 {
+		font-size: 6rem;	font-weight: 100;
+		text-align: center;	letter-spacing: 2rem;
+		margin-top: 10rem;
+	}
+	#new .newBox .newDetail {
+		position: absolute;		bottom:0;		left: 50%;
+		width: 100%;
+		transform: translateX(-50%);
+	}
+	#new .newBox .newDetail h3 {
+		font-size: 3rem;
+		text-align: center;
+	}
+	#new .newBox .newDetail p {
+		padding: 1rem 0 2rem 0;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	#new .newBox .newDetail button {
+		border: 1px solid rgba(0, 0, 0, 0.5);	border-radius: 5rem;	outline: none;
+		background-color: transparent;
+		position: relative;		left: 50%;
+		transform: translateX(-50%);
+		font-size: 1.5rem;
+		padding: 1rem 2rem;
+		cursor: pointer;
+	}
+	#new .newBox .newDetail button:hover {
+		background-color: black;
+		color: white;
+	}
+	#new .newBox ul {
+		width: 100%;	height: 80%;
+		position: absolute;		margin-top: 1rem;
+	}
+	#new .newBox ul li {
+		list-style: none;
+		position: absolute;		left: 50%;		top: 1rem;
+		opacity: 1;
+		transform: translateX(-50%);
+		transition: 0.3s;
+	}
+	#new .newBox ul li.opacity_none {
+		opacity: 0;
+		transition: 0.3s;
+	}
+	#new .newBox ul li:nth-child(1) img{
+		width: 250px;
+	}
+	#new .newBox ul li:nth-child(2) img{
+		padding: 5rem 0;
+		width: 500px;
+	}
+	#new .newBox ul li:nth-child(3) img{
+		padding: 0 0;
+		width: 450px;
+	}
+	#new .newBox ul li:nth-child(4) img{
+		padding: 0 0;
+		width: 450px;
+	}
+	#new .newBox ul li:nth-child(5) img{
+		padding: 0 0;
+		width: 450px;
+	}
+	
+	#new .newBox .newBtn {
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		border-radius: 50%;
+		position: absolute;		top: 50%;
+		width: 5rem;	height: 5rem;
+		cursor: pointer;
+	}
+	#new .newBox .newRtBox {
+		right: 0;	
+	}
+	#new .newBox .newRtBtn {
+		border: 2px solid rgba(0, 0, 0, 0.5);	border-left : none;		border-bottom: none;
+		position: absolute;		left: 1rem;	top: 1.5rem;
+		width: 2rem;	height: 2rem;
+		transform: rotate(45deg);
+	}
+	#new .newBox .newLtBtn {
+		border: 2px solid  rgba(0, 0, 0, 0.5);	border-right : none;		border-top: none;
+		position: absolute;		left: 1.8rem;	top: 1.5rem;
+		width: 2rem;	height: 2rem;
+		transform: rotate(45deg);
+	}
+
+	#event .eventBox {
+		position: absolute;		left: 50%;		top: 30%;
+		width: 90%;		height: 80%;
+		transform: translateX(-50%);
+	}
+	#event .eventBox h1 {
+		font-size: 6rem;	font-weight: 100;
+		text-align: center;	letter-spacing: 2rem;
+	}
+	#event .eventBox .eventList {
+		position: relative;
+		display: flex;		flex-flow: row wrap;
+		transform: translateY(5%);
+	}
+
+	#place .placeBox {
+		position: absolute;		left: 50%;		top: 10%;
+		width: 100%;		height: 80%;
+		transform: translateX(-50%);
+	}
+	#place .placeBox h1 {
+		font-size: 6rem;	font-weight: 100;
+		text-align: center;	letter-spacing: 1rem;
+	}
+	#place .placeBox .placeSlide {
+		position: relative;
+		width: 6500px;
+		padding: 2rem 0;
+		margin-top: 0;
+		display: flex;
+		cursor: grab;
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+	#place .placeBox .placeSlide .placeCard {
+		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.3);
+		width: 350px;	height: 450px;
+		margin:0rem 40px;
+		user-select: none;
+	}
+	#place .placeBox .placeSlide .placeCard img {
+		width: 300px;
+		padding: 2.5rem;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail {
+		padding: 2.5rem;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail h3 {
+		font-size: 2rem;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail p {
+		font-size: 1.3rem;
+		padding: 1rem 0;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail span {
+		font-size: 1.3rem;	font-weight: 500;
+	}
+	#place .placeBox .placeSlide .placeCard .cardDetail a {
+		border: 1px solid black;	border-radius: 20px;
+		width: 100px;
+		padding: 0.5rem 1.0rem;
+		margin-top: 3rem;
+		font-size: 1.5rem;		color: black;
+		text-align: center;		text-decoration: none;
+		display: block;
+	}
+
+	#hire .hireBox {
+		position: absolute;	left: 50%;	top: 10rem;
+		width: 950px;		height: 700px;
+		transform: translateX(-50%);
+	}
+	#hire .hireBox h1 {
+		font-size: 8rem;	font-weight: 100;
+	}
+	#hire .hireBox h2 {
+		font-size: 2rem;
+		text-align: right;
+	}
+	#hire .hireBox .hireList {
+		width: 950px;	height: 30rem;
+		padding: 3rem 0;
+		display: flex;	justify-content: space-between;
+	}
+	#hire .hireBox .hireList .hireDetail {
+		border-top: 2px solid black;
+		width: 35rem;	height: 25rem;
+	}
+	#hire .hireBox .hireList .hireDetail h3 {
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;	line-height: 10rem;
+		font-size: 3rem;	color: white;
+		text-align: center;		
+		display: block;
+		cursor: pointer;
+		-webkit-transition: all 1s;
+	}
+	#hire .hireBox .hireList .hireDetail h3:hover {
+		background-color: rgba(22, 40, 155, 0.8);
+		line-height: 25rem;
+		-webkit-transition: all 1s;
+	}
+}
