@@ -25,7 +25,6 @@
 	}
 
 	#new .newBox{
-		border: 1px solid red;
 		position: absolute;		left: 50%;		top: 48%;
 		width: 40rem;	height: 80rem;
 		transform: translate(-50%, -50%);

@@ -21,7 +21,6 @@
 		display: none;
 	}
 	nav.lnb {
-		border: 1px solid red;
 		position: absolute; 	left: 50%;		z-index: 999;
 		display: flex;		align-items: center;
 		width: 60vw; 	height: 10rem;
@@ -30,7 +29,6 @@
 	}
 	
 	header .smallGnb {
-		border: 1px solid red;
 		position: relative;		z-index: 999;
 		height: 100%;
 		display: flex;		justify-content: center;	align-items: center;
@@ -147,7 +145,6 @@
 	}
 
 	#new .newBox{
-		border: 1px solid red;
 		position: absolute;		left: 50%;		top: 48%;
 		width: 55rem;	height: 80rem;
 		transform: translate(-50%, -50%);
@@ -162,7 +159,6 @@
 		 background-blend-mode: normal,color-burn;
 	}
 	#event .eventBox {
-		border: 1px solid red;
 		position: absolute;		left: 50%;		top: 5%;
 		width: 90%;		height: 80%;
 		transform: translateX(-50%);
@@ -263,7 +259,6 @@
 		background-attachment: fixed;
 	}
 	#hire .hireBox {
-		border: 1px solid red;
 		position: absolute;	left: 50%;	top: 5%;
 		width: 90%;
 		transform: translateX(-50%);
